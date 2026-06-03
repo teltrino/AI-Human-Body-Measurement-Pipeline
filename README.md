@@ -174,7 +174,7 @@ POST /process-all/
 
 ## API Flow
 
-![Alt Text](docs/example-api-request.png)
+![Alt Text](docs/example-api-request.jpeg)
 
 ---
 
