@@ -1,0 +1,41 @@
+# --- Web API ---
+fastapi
+uvicorn
+python-multipart
+
+# --- Scientific Computing & Data ---
+numpy
+scipy
+PyYAML
+pickle5; python_version < '3.8'
+
+# --- Computer Vision & Image Processing ---
+opencv-python
+torch
+torchvision
+torchaudio
+
+# --- SMPL-X & Human Body Modeling ---
+smplx
+human-body-prior
+chumpy
+
+# --- Detectron2 (DensePose) ---
+# Note: Detectron2 is often best installed directly from the source or via 
+# its specific pre-built wheels depending on your torch version.
+# The line below is the standard github reference:
+git+https://github.com/facebookresearch/detectron2.git
+
+# --- Utility ---
+pathlib
+requests
+
+# Important Installation Notes:
+# OpenPose: pyopenpose is not available via pip. You must compile OpenPose from the official source with Python support enabled to generate the .so or .pyd files.
+# Detectron2 (DensePose): If you encounter issues with the git link above, install it using the specific wheel for your CUDA version:
+# code
+# Bash
+# pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html
+# (Adjust cu113 and torch1.10 to match your environment.)
+# SMPL-Anthropometry: This is a custom library. Ensure you clone it into your ./models/ folder as referenced in the body_measurements.py file.
+# VPoser: This is installed via the human-body-prior package listed in the requirements.
