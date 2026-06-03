@@ -286,8 +286,9 @@ Focused on:
 
 This repository represents a personal implementation and research-oriented version of a human body measurement pipeline.
 
-Measurement accuracy may vary depending on image quality, body pose, clothing, camera parameters, and reconstruction quality.
+This is just a demo to proof the concept.
 
 This project should not be used as a substitute for professional medical, health, or anthropometric assessment.
 
+All rights to the High-Accuracy, production-ready version of this technology are owned by EGYROBO.
 
