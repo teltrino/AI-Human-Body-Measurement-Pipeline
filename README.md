@@ -295,15 +295,6 @@ Software Engineer focused on Computer Vision,
 AI Systems,
 and AR/VR Applications.
 
-Focused on:
-
-* Computer Vision
-* Human Pose Estimation
-* 3D Human Reconstruction
-* Generative AI
-* AR/VR Systems
-* Intelligent Measurement Solutions
-
 ---
 
 ## Disclaimer
