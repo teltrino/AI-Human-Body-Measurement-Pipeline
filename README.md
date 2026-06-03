@@ -174,7 +174,7 @@ POST /process-all/
 
 ## API Flow
 
-![Alt Text](docs/example-api-request.jpeg)
+![Alt Text](docs/api-request.jpeg)
 
 ---
 
@@ -254,7 +254,7 @@ AI-HUMAN-BODY-MEASUREMENT-PIPELINE
 │   ├── input-example.jpg
 │   ├── api-flow.png
 |   ├── architecture.png
-│   └── example-api-request.jpeg
+│   └── api-request.jpeg
 │
 ├── requirements.txt
 │
