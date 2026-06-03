@@ -1,3 +1,4 @@
+
 # AI Human Body Measurement Pipeline
 
 A production-oriented AI pipeline for extracting human body measurements from a single RGB image using computer vision, human pose estimation, 3D body reconstruction, and anthropometric analysis.
@@ -65,27 +66,7 @@ Automatic extraction of:
 
 ## Pipeline Architecture
 
-```text
-Input Image
-     │
-     ▼
- OpenPose
-     │
-     ▼
- DensePose
-     │
-     ▼
- SMPLify-X
-     │
-     ▼
- SMPL-X Mesh
-     │
-     ▼
- SMPL Anthropometry
-     │
-     ▼
- Body Measurements
-```
+![Alt Text](docs/architecture.png)
 
 ---
 
@@ -105,6 +86,12 @@ Input Image
 * FastAPI
 * Python 3.10
 * PyTorch
+
+## API Flow
+
+![Alt Text](docs/api-flow.png)
+
+---
 
 ### Supporting Libraries
 
@@ -169,6 +156,8 @@ POST /process-all/
 
 ---
 
+
+
 ## API Response
 
 ```json
@@ -182,6 +171,13 @@ POST /process-all/
 ```
 
 ---
+
+## API Flow
+
+![Alt Text](docs/example-api-request.png)
+
+---
+
 
 ## Installation
 
@@ -227,6 +223,8 @@ git clone https://github.com/vchoutas/smplify-x.git
 git clone https://github.com/DavidBoja/SMPL-Anthropometry.git
 
 git clone https://github.com/vchoutas/torch-mesh-isect.git
+
+*Read requirements.txt and documentation.docx for more info*
 ```
 
 ---
@@ -234,7 +232,7 @@ git clone https://github.com/vchoutas/torch-mesh-isect.git
 ## Run API
 
 ```bash
-uvicorn app.api:app --host 0.0.0.0 --port 8000
+python3 api.py
 ```
 
 ---
@@ -251,7 +249,7 @@ AI-HUMAN-BODY-MEASUREMENT-PIPELINE
     ├── body_reconstruction.py
 │   └── body_measurements.py
 │
-├── app
+├── docs
 │   ├── 3d-output.obj
 │   ├── input-example.jpg
 │   ├── api-flow.png
@@ -265,17 +263,6 @@ AI-HUMAN-BODY-MEASUREMENT-PIPELINE
 
 ---
 
-## Future Improvements
-
-* Multi-view reconstruction
-* Mobile deployment
-* Real-time body measurement estimation
-* AR virtual try-on integration
-* Clothing fit prediction
-* Avatar generation
-* Automated garment sizing recommendation
-
----
 
 ## Author
 
@@ -301,3 +288,5 @@ This repository represents a personal implementation and research-oriented versi
 Measurement accuracy may vary depending on image quality, body pose, clothing, camera parameters, and reconstruction quality.
 
 This project should not be used as a substitute for professional medical, health, or anthropometric assessment.
+
+
