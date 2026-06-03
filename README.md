@@ -254,7 +254,7 @@ AI-HUMAN-BODY-MEASUREMENT-PIPELINE
 │   ├── input-example.jpg
 │   ├── api-flow.png
 |   ├── architecture.png
-│   └── example-api-request.png
+│   └── example-api-request.jepg
 │
 ├── requirements.txt
 │
