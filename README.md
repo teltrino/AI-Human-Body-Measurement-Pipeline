@@ -13,6 +13,11 @@ The system combines OpenPose, DensePose, SMPLify-X, and SMPL Anthropometry to ge
 * E-commerce Sizing Solutions
 
 ---
+## Pipeline Architecture
+
+![Architecture-Pipeline](docs/architecture.png)
+
+---
 
 ## Features
 
@@ -64,11 +69,6 @@ Automatic extraction of:
 
 ---
 
-## Pipeline Architecture
-
-![Alt Text](docs/architecture.png)
-
----
 
 ## Technologies
 
@@ -89,7 +89,7 @@ Automatic extraction of:
 
 ## API Flow
 
-![Alt Text](docs/api-flow.png)
+![API Flow](docs/api-flow.png)
 
 ---
 
@@ -119,6 +119,22 @@ This project is intended for users aged 16 years and older.
 The underlying body reconstruction and anthropometric estimation workflow was designed and evaluated for adolescent and adult body proportions.
 
 Using the system for younger children is not recommended.
+
+---
+## Results
+
+Input Image Example
+
+![Input](docs/input-example.jpg)
+
+Generated Mesh Output
+
+Front
+![Front mesh](docs/mesh-front.png)
+Side
+![side mesh](docs/mesh-side.png)
+
+
 
 ---
 
@@ -174,7 +190,7 @@ POST /process-all/
 
 ## API Flow
 
-![Alt Text](docs/api-request.jpeg)
+![API Flow](docs/api-request.jpeg)
 
 ---
 
@@ -269,7 +285,10 @@ AI-HUMAN-BODY-MEASUREMENT-PIPELINE
 
 **Mohamed Eltelawy**
 
-AI Engineer | Computer Vision Engineer
+Software Engineer focused on Computer Vision,
+3D Human Reconstruction,
+AI Systems,
+and AR/VR Applications.
 
 Focused on:
 
@@ -286,7 +305,7 @@ Focused on:
 
 This repository represents a personal implementation and research-oriented version of a human body measurement pipeline.
 
-This is just a demo to proof the concept.
+This is just a demo to prove the concept.
 
 This project should not be used as a substitute for professional medical, health, or anthropometric assessment.
 
