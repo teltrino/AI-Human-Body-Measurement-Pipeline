@@ -267,7 +267,7 @@ AI-HUMAN-BODY-MEASUREMENT-PIPELINE
 │   ├── api.py
 │   ├── pose_estimation.py
 │   ├── body_analysis.py
-    ├── body_reconstruction.py
+|    ├── body_reconstruction.py
 │   └── body_measurements.py
 │
 ├── docs
@@ -275,7 +275,7 @@ AI-HUMAN-BODY-MEASUREMENT-PIPELINE
 │   ├── input-example.jpg
 │   ├── api-flow.png
 |   ├── architecture.png
-    ├── api-request.jpeg
+|    ├── api-request.jpeg
 │   └── Documentation.docx
 │
 ├── requirements.txt
