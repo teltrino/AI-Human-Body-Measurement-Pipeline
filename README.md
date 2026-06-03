@@ -122,22 +122,23 @@ Using the system for younger children is not recommended.
 
 ---
 ## Results
-```
+
 Input Image Example
 
 ![Input](docs/input-example.jpg)
-```
-```
+
 Generated Mesh Output
-```
-```
+
 Front
+
 ![Front mesh](docs/mesh-front.png)
-```
-```
+
+
 Side
+
+
 ![side mesh](docs/mesh-side.png)
-```
+
 
 
 ---
